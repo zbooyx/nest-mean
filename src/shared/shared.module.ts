@@ -1,6 +1,6 @@
 import { Global, Module } from '@nestjs/common';
 import { ConfigurationService } from './configuration/configuration.service';
-import { MapperService } from './mapper/mapper/mapper.service';
+import { MapperService } from './mapper/mapper.service';
 
 @Global()
 @Module({

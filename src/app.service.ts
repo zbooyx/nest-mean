@@ -5,7 +5,7 @@ export class AppService {
   getHello(): object {
     return {
       success: 200,
-      data: 'elossszkaGetHEllo'
+      data: 'hello'
     };
   }
 }
